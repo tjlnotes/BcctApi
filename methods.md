@@ -9,7 +9,7 @@ Methods allow you to smoothly display code examples in different languages.
 
 My first method exposes how to print a message in JavaScript and Go.
 #### 请求接口
->  
+>  http://www.hubeta.com/web/api/basCustomer/getByConId
 
 #### 请求方式
 > POST
@@ -30,38 +30,29 @@ My first method exposes how to print a message in JavaScript and Go.
 ```
 #### 返回参数
 
-| 参数名称  |说明            |类型    |是否必需|
-| --------- | ------------ | ------ | ----- |
-| city     | 用户信息conId |string  |是      |
-| conName     | 用户信息conId |string  |是      |
-| conNo     | 用户信息conId |string  |是      |
-| conType     | 用户信息conId |string  |是      |
-| country     | 用户信息conId |string  |是      |
-| createBy     | 用户信息conId |string  |是      |
-| createDt     | 用户信息conId |string  |是      |
-| enabled     | 用户信息conId |string  |是      |
-| eonQrcode     | 用户信息conId |string  |是      |
-| firstId     | 用户信息conId |string  |是      |
-| homePic     | 用户信息conId |string  |是      |
-| id     | 用户信息conId |string  |是      |
-| isLockout     | 用户信息conId |string  |是      |
-| memo     | 用户信息conId |string  |是      |
-| mobile     | 用户信息conId |string  |是      |
-| pic     | 用户信息conId |string  |是      |
-| province     | 用户信息conId |string  |是      |
-| sex     | 用户信息conId |string  |是      |
-| sourceId     | 用户信息conId |string  |是      |
-| conId     | 用户信息conId |string  |是      |
-| status     | 用户信息conId |string  |是      |
-| subscribe     | 用户信息conId |string  |是      |
-| subscribeDt     | 用户信息conId |string  |是      |
-| sysAccount     | 用户信息conId |string  |是      |
-| twitterCngDt     | 用户信息conId |string  |是      |
-| twitterDt     | 用户信息conId |string  |是      |
-| twitterOrder     | 用户信息conId |string  |是      |
-| updateDt     | 用户信息conId |string  |是      |
-| userId     | 用户信息conId |string  |是      |
-| twitterOrder     | 用户信息conId |string  |是      |
+| 参数名称  |说明            |类型    |
+| --------- | ------------ | ------ |
+| city     | 用户信息conId |string  |
+| conName     | 用户名 |string  |
+| conNo     | 会员代码【可自定义编码规则】 |num  |
+| conType     | 会员类型 0普通客户 1代理客户【推客】 |num  |
+| country     | 用户信息conId |string  |
+| province    | 用户所属国家   |string |
+| createBy     | 用户信息conId |string  |
+| createDt     | 用户信息conId |string  |
+| enabled     | 用户信息conId |string  |
+| eonQrcode     | 用户信息conId |string  |
+| firstId     | 用户信息conId |string  |
+| homePic     | 用户信息conId |string  |
+| id     | 用户信息conId |string  |
+| isLockout     | 用户信息conId |string  |
+| memo     | 用户信息conId |string  |
+| mobile     | 用户信息conId |string  |
+| pic     | 用户信息conId |string  |
+| province     | 用户信息conId |string  |
+| sex     | 用户信息conId |string  |
+| resultCode | 查询结果，取值为0和1 ，0表示查询失败，1表示查询成功|num
+
 
 #### 返回示例
 
