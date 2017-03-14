@@ -11,9 +11,15 @@ My first method exposes how to print a message in JavaScript and Go.
 #### 请求接口
 >  
 
+####请求示例
+
+```
+  
+``` 
+
 #### 返回示例
-{% sample lang="json" %}
-```js
+
+```json
 {
   "result": {
     "city": "长沙市",
