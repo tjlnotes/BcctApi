@@ -11,11 +11,57 @@ My first method exposes how to print a message in JavaScript and Go.
 #### 请求接口
 >  
 
-####请求示例
+#### 请求方式
+> POST
+
+#### 请求参数
+
+| 参数名称  |说明            |类型    |是否必需|
+| --------- | ------------ | ------ | ----- |
+| conId     | 用户信息conId |string  |是      |
+
+#### 请求示例
+
+```json
+{
+  conId: 'DD0A1E6556DA4393A2D8EE09755C3110'
+}
 
 ```
-  
-``` 
+#### 返回参数
+
+| 参数名称  |说明            |类型    |是否必需|
+| --------- | ------------ | ------ | ----- |
+| city     | 用户信息conId |string  |是      |
+| conName     | 用户信息conId |string  |是      |
+| conNo     | 用户信息conId |string  |是      |
+| conType     | 用户信息conId |string  |是      |
+| country     | 用户信息conId |string  |是      |
+| createBy     | 用户信息conId |string  |是      |
+| createDt     | 用户信息conId |string  |是      |
+| enabled     | 用户信息conId |string  |是      |
+| eonQrcode     | 用户信息conId |string  |是      |
+| firstId     | 用户信息conId |string  |是      |
+| homePic     | 用户信息conId |string  |是      |
+| id     | 用户信息conId |string  |是      |
+| isLockout     | 用户信息conId |string  |是      |
+| memo     | 用户信息conId |string  |是      |
+| mobile     | 用户信息conId |string  |是      |
+| pic     | 用户信息conId |string  |是      |
+| province     | 用户信息conId |string  |是      |
+| sex     | 用户信息conId |string  |是      |
+| sourceId     | 用户信息conId |string  |是      |
+| conId     | 用户信息conId |string  |是      |
+| status     | 用户信息conId |string  |是      |
+| subscribe     | 用户信息conId |string  |是      |
+| subscribeDt     | 用户信息conId |string  |是      |
+| sysAccount     | 用户信息conId |string  |是      |
+| twitterCngDt     | 用户信息conId |string  |是      |
+| twitterDt     | 用户信息conId |string  |是      |
+| twitterOrder     | 用户信息conId |string  |是      |
+| updateDt     | 用户信息conId |string  |是      |
+| userId     | 用户信息conId |string  |是      |
+| twitterOrder     | 用户信息conId |string  |是      |
 
 #### 返回示例
 
@@ -55,18 +101,3 @@ My first method exposes how to print a message in JavaScript and Go.
   "resultCode": 1
 }
 ```
-
-{% sample lang="go" %}
-Here is how to print a message to `stdout` using Go.
-
-```go
-fmt.Println("My first method")
-```
-
-{% common %}
-Whatever language you are using, the result will be the same.
-
-```bash
-$ My first method
-```
-{% endmethod %}
