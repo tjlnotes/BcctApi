@@ -4,10 +4,10 @@
 * [Introduction](README.md)
 
 ## 1. 公共逻辑类接口
-* [1.1 获取用户信息](11-获取用户信息.md)
-
-## My Awesome API
-* [Defining Methods](1. 公共逻辑类接口//1.1 获取用户信息.md)
+* [1.1 获取用户信息](publicLogic/getUserInfo.md)
+* 
+## 2. 页面交互类接口
+* [2.1 首页](pageDisplay/indexPage.md)
 
 ## 页面交互类接口
 
