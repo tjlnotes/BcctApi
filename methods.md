@@ -1,13 +1,11 @@
 # 公共逻辑类接口
 
-Methods allow you to smoothly display code examples in different languages.
+请将页面公用所需接口，如验证用户、获取用户信息等写入本类
 
 
-## 1. 获取用户conid
+## 1. 获取用户信息
 #### 接口描述
-    
-
-My first method exposes how to print a message in JavaScript and Go.
+根据用户conId获取用户所有数据
 #### 请求接口
 >  http://www.hubeta.com/web/api/basCustomer/getByConId
 
@@ -20,7 +18,7 @@ My first method exposes how to print a message in JavaScript and Go.
 | --------- | ------------ | ------ | ----- |
 | conId     | 用户信息conId |string  |是      |
 
-#### 请求示例
+#### 请求参数示例
 
 ```json
 {
@@ -68,3 +66,6 @@ My first method exposes how to print a message in JavaScript and Go.
   "resultCode": 1
 }
 ```
+####备注
+
+需求中所列为前端必需字段，后台开发可根据开发需要新增或修改字段。
