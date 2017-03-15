@@ -24,7 +24,7 @@ My first method exposes how to print a message in JavaScript and Go.
 
 ```json
 {
-  conId: 'DD0A1E6556DA4393A2D8EE09755C3110'
+  conId:'DD0A1E6556DA4393A2D8EE09755C3110'
 }
 
 ```
@@ -32,24 +32,15 @@ My first method exposes how to print a message in JavaScript and Go.
 
 | 参数名称  |说明            |类型    |
 | --------- | ------------ | ------ |
-| city     | 用户信息conId |string  |
+| id | 会员编号 |string |
 | conName     | 用户名 |string  |
 | conNo     | 会员代码【可自定义编码规则】 |num  |
 | conType     | 会员类型 0普通客户 1代理客户【推客】 |num  |
-| country     | 用户信息conId |string  |
-| province    | 用户所属国家   |string |
-| createBy     | 用户信息conId |string  |
-| createDt     | 用户信息conId |string  |
-| enabled     | 用户信息conId |string  |
-| eonQrcode     | 用户信息conId |string  |
-| firstId     | 用户信息conId |string  |
-| homePic     | 用户信息conId |string  |
-| id     | 用户信息conId |string  |
-| isLockout     | 用户信息conId |string  |
-| memo     | 用户信息conId |string  |
-| mobile     | 用户信息conId |string  |
-| pic     | 用户信息conId |string  |
-| province     | 用户信息conId |string  |
+| country     | 国家 |string  |
+| province    | 省份   |string |
+| city | 城市 |string |
+| mobile     | 手机号 |string  |
+| pic     | 头像图片 |string  |
 | sex     | 用户信息conId |string  |
 | resultCode | 查询结果，取值为0和1 ，0表示查询失败，1表示查询成功|num
 
@@ -64,14 +55,8 @@ My first method exposes how to print a message in JavaScript and Go.
     "conNo": 1,
     "conType": 1,
     "country": "中国",
-    "createBy": "system",
-    "createDt": "2016-12-26 14:18:48",
-    "enabled": 1,
-    "eonQrcode": 0,
-    "firstId": "0",
     "homePic": "http://www.hubeta.com:8080/group1/M00/00/12/wKgB9FiruwyAY2qBAAaFB42OxaI144.jpg",
     "id": "DD0A1E6556DA4393A2D8EE09755C3110",
-    "isLockout": 0,
     "memo": "971731",
     "mobile": "18588474441",
     "pic": "http://www.hubeta.com:8080/group1/M00/00/07/wKgB9FhgtkiAAEe2AAAFJgnHYyM520.jpg",
