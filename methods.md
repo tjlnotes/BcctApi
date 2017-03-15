@@ -6,7 +6,7 @@
 ## 1. 获取用户信息
 #### 接口描述
 根据用户conId获取用户所有数据
-#### 请求接口
+#### 接口地址
 >  http://www.hubeta.com/web/api/basCustomer/getByConId
 
 #### 请求方式
