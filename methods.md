@@ -43,6 +43,7 @@ My first method exposes how to print a message in JavaScript and Go.
 | pic     | 头像图片 |string  |
 | sex     | 用户信息conId |string  |
 | resultCode | 查询结果，取值为0和1 ，0表示查询失败，1表示查询成功|num
+| sysAccount | 账套号 | string
 
 
 #### 返回示例
@@ -62,17 +63,7 @@ My first method exposes how to print a message in JavaScript and Go.
     "pic": "http://www.hubeta.com:8080/group1/M00/00/07/wKgB9FhgtkiAAEe2AAAFJgnHYyM520.jpg",
     "province": "湖南省",
     "sex": 1,
-    "sourceId": "o2HCxwXblItq9f_-4ss3cHfRSyvE",
-    "status": 0,
-    "subscribe": 1,
-    "subscribeDt": "2016-12-26 14:18:48",
-    "sysAccount": "WKZZ",
-    "twitterCngDt": "2017-01-03 09:40:52",
-    "twitterDt": "2017-01-03 09:40:52",
-    "twitterOrder": "EBF87AE519B548B0B630615E1CE626C1",
-    "updateDt": "2017-01-03 09:38:04",
-    "userId": "5DDA29C3694D478A8930198BB56C6760",
-    "version": 1
+    "sysAccount": "WKZZ"
   },
   "resultCode": 1
 }
