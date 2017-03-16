@@ -2,7 +2,7 @@
 
 ## [阅读需知 （README）](README.md)
 
-* [1.公共逻辑类接口](none.md)
+* [1.公共逻辑类接口](publicLogic)
     * [1.1 获取用户信息](publicLogic/1_getUserInfo.md)
     * [1.2 获取验证码](publicLogic/2_getCode.md)
     * [1.3 修改用户信息](publicLogic/3_updateUserInfo.md)
@@ -17,7 +17,7 @@
     * [1.12 修改推荐人](publicLogic/12_updateReferrer.md)
 
 
-* [2.页面交互类接口](none.md)
+* [2.页面交互类接口](pageDisplay)
     * [2.1 首页](pageDisplay/1_indexPage.md)
     * [2.2 视频详情页](pageDisplay/2_videoDetail.md)
     * [2.3 视频播放页](pageDisplay/3_videoPlay.md)
