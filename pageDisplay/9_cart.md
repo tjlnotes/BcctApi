@@ -144,9 +144,7 @@
 
 | 参数名称 | 说明 | 类型 | 是否必须 |
 | --------- | ------------ | ------ | ----- |
-| conId | 用户id  |string | 是 |
 | productId | 商品id  |string | 是 |
-| sysAccount | 账套号  |string | 是 |
 
 
 ### 请求参数示例
