@@ -44,18 +44,22 @@
   "result": [
     {
       "displaySeq": 1,
+      "categoryCode": "01",
       "categoryName": "枕芯类"
     },
     {
       "displaySeq": 2,
+      "categoryCode": "02",
       "categoryName": "套件类"
     },
     {
       "displaySeq": 3,
+      "categoryCode": "03",
       "categoryName": "被芯类",
     },
     {
       "displaySeq": 4,
+      "categoryCode": "04",
       "categoryName": "家居小件",
     }
   ],
