@@ -37,9 +37,10 @@
 
 ```json
 {
-    pntID:"id";
-	conID:"id";
-	pageSize
+    productId: "id",
+    sysAccount: "id",
+    pageNo: "1",
+    pageSize: "10"
 }
 ```
 
