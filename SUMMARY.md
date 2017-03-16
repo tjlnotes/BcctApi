@@ -21,7 +21,7 @@
   * [2.4 订单结算页](pageDisplay/4_order.md)
   * [2.5 订单列表页](pageDisplay/5_orderList.md)
   * [2.6 二维码页](pageDisplay/6_code.md)
-  * [2.7 评价论坛页](pageDisplay/7_BBS.md)
+  * [2.7 论坛页](pageDisplay/7_BBS.md)
   * [2.8 个人中心页](pageDisplay/8_personalCenter.md)
   * [2.9 购物车页](pageDisplay/9_cart.md)
 
