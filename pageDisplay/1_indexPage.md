@@ -1,9 +1,9 @@
 # 2.1 首页
 
-- [2.1.1获取页面分类接口](#2.1.1)
-- [2.1.2获取分类页面信息接口](#2.1.2)
+* [2.1.1获取页面分类接口](#2.1.1)
+* [2.1.2获取分类页面信息接口](#2.1.2)
 
-## 2.1.1获取页面分类接口 [](#2.1.1)
+## 2.1.1获取页面分类接口  {#2.1.1}
 
 ### 接口描述
 
@@ -11,7 +11,7 @@
 
 ### 接口地址
 
-> http://www.hubeta.com/web/api/pntProduct/getPntCategories
+> [http://www.hubeta.com/web/api/pntProduct/getPntCategories](http://www.hubeta.com/web/api/pntProduct/getPntCategories)
 
 ### 请求方式
 
@@ -19,9 +19,9 @@
 
 ### 请求参数
 
-| 参数名称 |说明 |类型 |是否必需|
-| --------- | ------------ | ------ | ----- |
-| sysAccount| 账套号 |string |是 |
+| 参数名称 | 说明 | 类型 | 是否必需 |
+| --- | --- | --- | --- |
+| sysAccount | 账套号 | string | 是 |
 
 ### 请求参数示例
 
@@ -33,12 +33,12 @@
 
 ### 返回参数
 
-| 参数名称 |说明 |类型 |
-| --------- | ------------ | ------ |
-| displaySeq | 显示序号 |num|
-| categoryName | 分类名称 |num |
-| categoryCode | 分类代码 |num |
-| resultCode | 请求参数码，1成功，0失败 |num |
+| 参数名称 | 说明 | 类型 |
+| :--- | :--- | :--- |
+| displaySeq | 显示序号 | num |
+| categoryName | 分类名称 | num |
+| categoryCode | 分类代码 | num |
+| resultCode | 请求参数码，1成功，0失败 | num |
 
 ### 返回示例
 
@@ -70,11 +70,11 @@
 }
 ```
 
-###备注
+### 备注
 
 需求中所列为前端必需字段，后台开发可根据开发需要新增或修改字段。
 
-## 获取分类页面信息接口 [](#2.1.2)
+## 2.1.2 获取分类页面信息接口  {#2.1.2}
 
 ### 接口描述
 
@@ -82,7 +82,7 @@
 
 ### 接口地址
 
-> http://www.hubeta.com/web/api/page/getPage
+> [http://www.hubeta.com/web/api/page/getPage](http://www.hubeta.com/web/api/page/getPage)
 
 ### 请求方式
 
@@ -90,10 +90,10 @@
 
 ### 请求参数
 
-| 参数名称 |说明 |类型 |是否必需|
-| --------- | ------------ | ------ | ----- |
-| sysAccount | 账套号 |string |是 |
-| categoryCode | 分类代码 |string |是 |
+| 参数名称 | 说明 | 类型 | 是否必需 |
+| --- | --- | --- | --- |
+| sysAccount | 账套号 | string | 是 |
+| categoryCode | 分类代码 | string | 是 |
 
 ### 请求参数示例
 
@@ -106,24 +106,23 @@
 
 ### 返回参数
 
-| 参数名称 |说明 |类型 |
-| --------- | ------------ | ------ |
-| displaySeq | 组件序列号 |num|
-| partType | 组件类型：【0：轮播，1：宫格，2：直排，3：滑块，4：选项卡】 |num|
-| needButton | 是否需要按钮： 【0：不需要，1：需要】|num |
-| resourceId | 资源ID |string|
-| hrefUrl | 链接地址 |string |
-| resourceUrl | 资源地址 |string |
-| linkType | 链接类型【0：无链接；1：链接到产品；2：链接到分类；3:链接到 SKU；4：外部链接 5:链接到秒杀活动页】 |num|
-| resourceType| 冗余字段：【0：图片；1：音频；2：视频；3：文本】 |string |
-| salPrice | 售价 |num|
-| agent | 折扣 |num|
-| productName| 商品名称|string |
+| 参数名称 | 说明 | 类型 |
+| --- | --- | --- |
+| displaySeq | 组件序列号 | num |
+| partType | 组件类型：【0：轮播，1：宫格，2：直排，3：滑块，4：选项卡】 | num |
+| needButton | 是否需要按钮： 【0：不需要，1：需要】 | num |
+| resourceId | 资源ID | string |
+| hrefUrl | 链接地址 | string |
+| resourceUrl | 资源地址 | string |
+| linkType | 链接类型【0：无链接；1：链接到产品；2：链接到分类；3:链接到 SKU；4：外部链接 5:链接到秒杀活动页】 | num |
+| resourceType | 冗余字段：【0：图片；1：音频；2：视频；3：文本】 | string |
+| salPrice | 售价 | num |
+| agent | 折扣 | num |
+| productName | 商品名称 | string |
 | content | 商品描述 | string |
 | playAccount | 播放次数 | num |
 | productId | 商品ID | string |
 | resultCode | 返回码 | num |
-
 
 ### 返回示例
 
@@ -175,6 +174,7 @@
 }
 ```
 
-###备注
+### 备注
 
 需求中所列为前端必需字段，后台开发可根据开发需要新增或修改字段。
+
