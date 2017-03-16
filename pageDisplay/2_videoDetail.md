@@ -47,25 +47,28 @@
 ### 返回示例
 ```json
 {
-"result": [
-[
-{
-"userName": "张三",
-"userImage": "http://www.hubeta.com:8080/group1/M00/00/07/wKgB9FhgtkiAAEe2AAAFJgnHYyM520.jpg",
-"creatTime": "2017-03-15 10:23:58",
-"content": "地球已经危在旦夕地球已经危在旦夕"
-}
-],
-[
-{
-"userName": "李四",
-"userImage": "http://www.hubeta.com:8080/group1/M00/00/07/wKgB9FhgtkiAAEe2AAAFJgnHYyM520.jpg",
-"creatTime": "2017-03-15 10:23:58",
-"content": "恐龙大量灭亡"
-}
-]
-],
-"resultCode": 1
+  "result": {
+       "title":"乐学包",
+       "content": "“海洋世界系列”是《蓝猫淘气三千问》继“幽默系列”之后推出的又一历险类故事系列",
+       "price": 118,
+       "discountPrice": 69,
+       "summary": [
+           {
+               "theme": "主题一 字母世界",
+               "content": [
+                   {
+                       "title": "Unit01 字母世界",
+                       "time": "12分钟"
+                   },
+                   {
+                       "title": "Unit02 数字世界",
+                       "time": "12分钟"
+                   }
+               ]
+           }
+       ]
+  },
+  "resultCode": 1
 }
 ```
 
