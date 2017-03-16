@@ -12,9 +12,10 @@
 * [1.6 获取购物车信息](publicLogic/6_getCart.md)
 * [1.7 修改购物车信息](publicLogic/7_updateCart.md)
 * [1.8 获取优惠券信息](publicLogic/8_getCoupon.md)
-* [1.9 获取优惠券信息](publicLogic/9_updateCoupon.md)
-* [1.10 发起支付](publicLogic/10_wechatPay.md)
-* [1.11 修改推荐人](publicLogic/11_updateReferrer.md)
+* [1.9 更新优惠券信息](publicLogic/9_updateCoupon.md)
+* [1.10 获取支付信息](publicLogic/10_getPayInfo.md)
+* [1.11 发起支付](publicLogic/11_wechatPay.md)
+* [1.12 修改推荐人](publicLogic/12_updateReferrer.md)
 
 
 ## 页面交互类接口
