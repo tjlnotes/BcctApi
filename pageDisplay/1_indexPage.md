@@ -18,13 +18,13 @@
 
 | 参数名称 |说明 |类型 |是否必需|
 | --------- | ------------ | ------ | ----- |
-| conId | 用户信息conId |string |是 |
+| sysAccount| 账套号 |string |是 |
 
 ### 请求参数示例
 
 ```json
 {
-conId:'DD0A1E6556DA4393A2D8EE09755C3110'
+  sysAccount:'WKZZ'
 }
 ```
 
@@ -32,8 +32,7 @@ conId:'DD0A1E6556DA4393A2D8EE09755C3110'
 
 | 参数名称 |说明 |类型 |
 | --------- | ------------ | ------ |
-| displaySeq | 会员编号 |string |
-| categoryCode | 用户名 |string |
+| displaySeq | 显示序号 |num|
 | categoryName | 会员代码【可自定义编码规则】 |num |
 | resultCode | 请求参数码，1成功，0失败 |num |
 
@@ -44,22 +43,18 @@ conId:'DD0A1E6556DA4393A2D8EE09755C3110'
   "result": [
     {
       "displaySeq": 1,
-      "categoryCode": "01",
       "categoryName": "枕芯类"
     },
     {
       "displaySeq": 2,
-      "categoryCode": "02",
       "categoryName": "套件类"
     },
     {
       "displaySeq": 3,
-      "categoryCode": "03",
       "categoryName": "被芯类",
     },
     {
       "displaySeq": 4,
-      "categoryCode": "04",
       "categoryName": "家居小件",
     }
   ],
@@ -73,14 +68,13 @@ conId:'DD0A1E6556DA4393A2D8EE09755C3110'
 
 ## 获得分类页面信息接口
 
-#
-## 接口描述
+### 接口描述
 
-根据用户conId获取用户所有数据
+获取对应分类页页面信息
 
 ### 接口地址
 
-> http://www.hubeta.com/web/api/basCustomer/getByConId
+> http://www.hubeta.com/web/api/page/getPage
 
 ### 请求方式
 
@@ -90,6 +84,8 @@ conId:'DD0A1E6556DA4393A2D8EE09755C3110'
 
 | 参数名称 |说明 |类型 |是否必需|
 | --------- | ------------ | ------ | ----- |
+| conId | 用户信息conId |string |是 |
+| conId | 用户信息conId |string |是 |
 | conId | 用户信息conId |string |是 |
 
 ### 请求参数示例
