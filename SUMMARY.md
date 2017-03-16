@@ -25,6 +25,7 @@
 * [2.3 视频播放页](pageDisplay/3_videoPlay.md)
 * [2.4 订单结算页](pageDisplay/4_order.md)
 * [2.5 个人中心页](pageDisplay/5_personalCenter.md)
-* [2.6 评价论坛页](pageDisplay/6_BBS.md)
+* [2.6 订单列表页](pageDisplay/6_orderList.md)
+* [2.7 评价论坛页](pageDisplay/7_BBS.md)
 
 
