@@ -1,6 +1,6 @@
 {
     "plugins": [
         "splitter",
-        "toggle-chapters"
+        "expandable-chapters-small"
     ]
 }
