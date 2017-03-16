@@ -75,7 +75,7 @@
 
 ### 接口描述
 
-获取对应分类页页面信息，根据partType字段，即后台配置的区块显示的组件类型（组件类型：0.轮播；1.宫格；2.直排；3.滑块；4.选项卡】）返回组件信息，如轮播时返回资源链接地址，宫格时返回商品信息。
+获取对应分类页页面信息，根据partType字段，即后台配置的区块显示的组件类型（组件类型：0.轮播，1.宫格，2.直排，3.滑块，4.选项卡】）返回组件信息，如轮播时返回资源链接地址，宫格时返回商品信息。
 
 ### 接口地址
 
@@ -105,18 +105,21 @@
 
 | 参数名称 |说明 |类型 |
 | --------- | ------------ | ------ |
-| id | 会员编号 |string |
-| conName | 用户名 |string |
-| conNo | 会员代码【可自定义编码规则】 |num |
-| conType | 会员类型 0普通客户 1代理客户【推客】 |num |
-| country | 国家 |string |
-| province | 省份 |string |
-| city | 城市 |string |
-| mobile | 手机号 |string |
-| pic | 头像图片 |string |
-| sex | 用户信息conId |string |
-| resultCode | 查询结果，取值为0和1 ，0表示查询失败，1表示查询成功|num
-| sysAccount | 账套号 | string
+| displaySeq | 组件序列号 |num|
+| partType | 组件类型：【0：轮播，1：宫格，2：直排，3：滑块，4：选项卡】 |num|
+| needButton | 是否需要按钮： 【0：不需要，1：需要】|num |
+| resourceId | 资源ID |string|
+| hrefUrl | 链接地址 |string |
+| resourceUrl | 资源地址 |string |
+| linkType | 链接类型【0：无链接；1：链接到产品；2：链接到分类；3:链接到 SKU；4：外部链接 5:链接到秒杀活动页】 |num|
+| resourceType| 冗余字段：【0：图片；1：音频；2：视频；3：文本】 |string |
+| salPrice | 售价 |num|
+| agent | 折扣 |num|
+| productName| 商品名称|string |
+| content | 商品描述 | string |
+| playAccount | 播放次数 | num |
+| productId | 商品ID | string |
+
 
 ### 返回示例
 
@@ -155,12 +158,11 @@
       "productInfo": {
         "displaySeq": 1,
         "salPrice": 1699,
-        "pntStock": 13,
         "agent": 15,
         "productName": "Kimi英语",
         "content": "促进孩子说的欲望，丰富孩子的英语词汇量",
         "playAccount": "1550",
-        "id": "705FC5426B1B45F491509804B9DFCF16",
+        "productId": "705FC5426B1B45F491509804B9DFCF16",
         "productCode": "WVBQFS2023-2",
       }
     },
