@@ -3,7 +3,7 @@
          "theme-api",
          "toggle-chapters",
          "expandable-chapters-small",
-         "Simple-page-toc"
+         "simple-page-toc"
      ],
     "pluginsConfig": {
         "theme-api": {
