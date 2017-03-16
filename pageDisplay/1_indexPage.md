@@ -119,6 +119,7 @@
 | content | 商品描述 | string |
 | playAccount | 播放次数 | num |
 | productId | 商品ID | string |
+| resultCode | 返回码 | num |
 
 
 ### 返回示例
