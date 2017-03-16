@@ -6,15 +6,15 @@
 
 * [1.1 获取用户信息](publicLogic/1_getUserInfo.md)
 * [1.2 获取验证码](publicLogic/2_getCode.md)
-* [1.3 修改用户手机号](publicLogic/3_updateMobile.md)
-* [1.4 获取商品包信息](publicLogic/4_getVideos.md)
-* [1.5 获取单品信息](publicLogic/5_getVideo.md)
+* [1.3 修改用户信息](publicLogic/3_updateUserInfo.md)
+* [1.4 获取商品包列表信息](publicLogic/4_getVideos.md)
+* [1.5 获取单商品包信息](publicLogic/5_getVideo.md)
 * [1.6 获取购物车信息](publicLogic/6_getCart.md)
 * [1.7 修改购物车信息](publicLogic/7_updateCart.md)
 * [1.8 获取优惠券信息](publicLogic/8_getCoupon.md)
 * [1.9 获取优惠券信息](publicLogic/9_updateCoupon.md)
 * [1.10 发起支付](publicLogic/10_wechatPay.md)
-* [1.11 绑定推荐人](publicLogic/11_bindReferrer.md)
+* [1.11 修改推荐人](publicLogic/11_updateReferrer.md)
 
 
 ## 页面交互类接口
