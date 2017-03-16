@@ -1,24 +1,2 @@
 {
-    "plugins": [ 
-         "theme-api",
-         "toggle-chapters",
-         "expandable-chapters-small",
-         "simple-page-toc"
-     ],
-    "pluginsConfig": {
-        "theme-api": {
-            "languages": [
-                {
-                    "lang": "js",
-                    "name": "JavaScript",
-                    "default": true
-                },
-                {
-                    "lang": "go",
-                    "name": "Go"
-                }
-            ]
-        },
-        "expandable-chapters-small":{}
-    }
 }
