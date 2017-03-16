@@ -1,5 +1,9 @@
 {
-    "plugins": [ "theme-api", "toggle-chapters"],
+    "plugins": [ 
+         "theme-api",
+         "toggle-chapters",
+         "expandable-chapters-small"
+     ],
     "pluginsConfig": {
         "theme-api": {
             "languages": [
