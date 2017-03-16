@@ -1,7 +1,7 @@
 # 2.1 首页
 
 * [2.1.1获取页面分类接口](#getpage)
-* [2.1.2获取分类页面信息接口](#getcategories)
+* [2.1.2获取分类页面信息接口](#2.1.2)
 
 ## 2.1.1获取页面分类接口  {#getpage}
 
@@ -11,7 +11,7 @@
 
 ### 接口地址
 
-> [http://www.hubeta.com/web/api/pntProduct/getPntCategories](http://www.hubeta.com/web/api/pntProduct/getPntCategories)
+> http://www.hubeta.com/web/api/pntProduct/getPntCategories
 
 ### 请求方式
 
@@ -74,7 +74,7 @@
 
 需求中所列为前端必需字段，后台开发可根据开发需要新增或修改字段。
 
-## 2.1.2 获取分类页面信息接口  {#getcategories}
+## 2.1.2 获取分类页面信息接口  {#2.1.2}
 
 ### 接口描述
 
@@ -82,7 +82,7 @@
 
 ### 接口地址
 
-> [http://www.hubeta.com/web/api/page/getPage](http://www.hubeta.com/web/api/page/getPage)
+> http://www.hubeta.com/web/api/page/getPage
 
 ### 请求方式
 
