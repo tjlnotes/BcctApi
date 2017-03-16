@@ -34,7 +34,7 @@
 | --------- | ------------ | ------ |
 | displaySeq | 显示序号 |num|
 | categoryName | 分类名称 |num |
-| categoryId | 分类ID】 |num |
+| categoryCode | 分类代码 |num |
 | resultCode | 请求参数码，1成功，0失败 |num |
 
 ### 返回示例
@@ -90,14 +90,14 @@
 | 参数名称 |说明 |类型 |是否必需|
 | --------- | ------------ | ------ | ----- |
 | sysAccount | 账套号 |string |是 |
-| sysAccount | 账套号 |string |是 |
+| categoryCode | 分类代码 |string |是 |
 
 ### 请求参数示例
 
 ```json
 {
   sysAccount:'WKZZ',
-  categoryId:''
+  categoryCode:'02'
 }
 ```
 
