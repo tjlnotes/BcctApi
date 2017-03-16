@@ -36,9 +36,9 @@
 
 | 参数名称 |类型 |说明 |
 | --------- | ------------ | ------ |
-| packageTitle | string | 视频包名称 |
-| content| string | 视频包详情介绍 |
-| price| num| 原价 |
+| videoUrl| string | 视频地址 |
+| videoImg| string | 视频包详情介绍 |
+| videoNo| num| 原价 |
 | discountPrice| num| 折扣价 |
 | theme| string | 主题 |
 | title| string | 分集标题 |
@@ -49,37 +49,23 @@
 ```json
 {
   "result": {
-       "curUrl":
-       "packageTitle":"乐学包",
-       "content": "“海洋世界系列”是《蓝猫淘气三千问》继“幽默系列”之后推出的又一历险类故事系列",
-       "price": 118,
-       "discountPrice": 69,
-       "summary": [
+       "videoUrl": "http://www.hubeta.com:8080/group1/M00/00/15/wKgB9Fi2eOGAeI_sAABZcDjy19Y660.mp4",
+       "videoImg": "http://www.hubeta.com:8080/wKgB9Fi2eOGAeI_sAABZcDjy19Y660.jpg",
+       "videoContent": "蓝猫一行人来到了外星人的飞船..."
+       "videoNo":"1"
+       "similarVideo": [
            {
-               "theme": "主题一 字母世界",
-               "content": [
-                   {
-                       "title": "Unit01 字母世界",
-                       "time": "12分钟"
-                   },
-                   {
-                       "title": "Unit02 数字世界",
-                       "time": "12分钟"
-                   }
-               ]
+               "videoUrl": "http://www.hubeta.com:8080/group1/M00/00/15/wKgB9Fi2eOGAeI_sAABZcDjy19Y660.mp4",
+               "videoImg": "http://www.hubeta.com:8080/wKgB9Fi2eOGAeI_sAABZcDjy19Y660.jpg",
+               "videoContent": "外星人...",
+               "videoNo":"2"
+
            },
            {
-               "theme": "主题二 快乐一家人",
-               "content": [
-                   {
-                       "title": "Unit01 字母世界",
-                       "time": "12分钟"
-                   },
-                   {
-                       "title": "Unit02 数字世界",
-                       "time": "12分钟"
-                   }
-               ]
+               "videoUrl": "http://www.hubeta.com:8080/group1/M00/00/15/wKgB9Fi2eOGAeI_sAABZcDjy19Y660.mp4",
+                "videoImg": "http://www.hubeta.com:8080/wKgB9Fi2eOGAeI_sAABZcDjy19Y660.jpg",
+                "videoContent": "蓝猫...",
+                "videoNo":"2"
            }
        ]
   },
