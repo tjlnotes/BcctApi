@@ -84,9 +84,9 @@
 
 | 参数名称 |说明 |类型 |是否必需|
 | --------- | ------------ | ------ | ----- |
-| conId | 用户信息conId |string |是 |
-| conId | 用户信息conId |string |是 |
-| conId | 用户信息conId |string |是 |
+| sysAccount | 账套号 |string |是 |
+| clientType| 客户端类型：【1：微信端； 2： 安卓APP； 3苹果APP】 |string |是 |
+| pageType| 用户信息conId |string |是 |
 
 ### 请求参数示例
 
