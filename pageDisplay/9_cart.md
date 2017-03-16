@@ -94,7 +94,7 @@
 | 参数名称 | 说明 | 类型 | 是否必须 |
 | --------- | ------------ | ------ | ----- |
 | conId | 用户id  |string | 是 |
-| productId | 用户id  |string | 是 |
+| productId | 商品id  |string | 是 |
 | sysAccount | 用户id  |string | 是 |
 
 
