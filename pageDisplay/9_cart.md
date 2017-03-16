@@ -95,14 +95,16 @@
 | --------- | ------------ | ------ | ----- |
 | conId | 用户id  |string | 是 |
 | productId | 商品id  |string | 是 |
-| sysAccount | 用户id  |string | 是 |
+| sysAccount | 账套号  |string | 是 |
 
 
 ### 请求参数示例
 
 ```json
 {
-    conId: "DD0A1E6556DA4393A2D8EE09755C3110"
+    "conId": "DD0A1E6556DA4393A2D8EE09755C3110",
+    "productId":"",
+    "sysAccount":""
 }
 ```
 
@@ -110,38 +112,11 @@
 
 | 参数名称 |类型 |说明 |
 | --------- | ------------ | ------ |
-| title| string | 商品名称 |
-| content| string | 商品描述 |
-| price| num | 原价 |
-| discountPrice| num | 折扣价 |
-| pic| string| 图片地址 |
+| resultCode| num | 返回码 |
 
 ### 返回示例
 ```json
 {
-    "result": [
-        {
-            "title":"",
-            "content":""
-            "price":"",
-            "discountPrice":"",
-            "pic":""
-        },
-        {
-            "title":"",
-            "content":""
-            "price":"",
-            "discountPrice":"",
-            "pic":""
-        },
-        {
-            "title":"",
-            "content":""
-            "price":"",
-            "discountPrice":"",
-            "pic":""
-        },
-    ],
     "resultCode": 1
 }
 ```
