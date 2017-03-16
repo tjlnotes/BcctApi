@@ -20,7 +20,7 @@
 
 | 参数名称 | 说明 | 类型 | 是否必须 |
 | --------- | ------------ | ------ | ----- |
-| productId | 产品包id  |string | 是 |
+| conId | 用户id  |string | 是 |
 | sysAccount | 账套号 |string | 是 |
 | pageNo | 页码，用于分页，默认值为1 |string |否|
 | pageSize | 每页显示数，用于分页，默认值为10 |string |否|
@@ -29,7 +29,7 @@
 
 ```json
 {
-    productId: "705FC5426B1B45F491509804B9DFCF16",
+    conId: "705FC5426B1B45F491509804B9DFCF16",
     sysAccount: "WKZZ",
     pageNo: "1",
     pageSize: "10"
@@ -40,32 +40,29 @@
 
 | 参数名称 |类型 |说明 |
 | --------- | ------------ | ------ |
-| userName | string | 评论用户昵称 |
-| userImage | string | 评论用户头像 |
-| creatTime | string | 评论时间 |
-| content | string | 评论内容 |
-| resultCode | num | 返回码 |
+| orderId| string | 订单ID |
+| orderNo| string | 订单编号 |
+| status| num | 订单状态 |
+| sum| num | 订单商品数 |
+| totalPrice| num | 总价 |
+| defaultPic| num | 订单默认商品图片 |
+| defaultTitle| num | 订单默认商品名称 |
+| defaultContent| num | 订单默认商品描述 |
 
 ### 返回示例
 ```json
 {
     "result": [
-        [
-            {
-                "userName": "张三",
-                "userImage": "http://www.hubeta.com:8080/group1/M00/00/07/wKgB9FhgtkiAAEe2AAAFJgnHYyM520.jpg",
-                "creatTime": "2017-03-15 10:23:58",
-                "content": "地球已经危在旦夕地球已经危在旦夕"
-            }
-        ],
-        [
-            {
-               "userName": "李四",
-                "userImage": "http://www.hubeta.com:8080/group1/M00/00/07/wKgB9FhgtkiAAEe2AAAFJgnHYyM520.jpg",
-                "creatTime": "2017-03-15 10:23:58",
-                "content": "恐龙大量灭亡"
-            }
-        ]
+        {
+            "orderId":"",
+            "orderNo":"",
+            "status":"",
+            "sum":"",
+            "totalPrice":"",
+            "defaultPic":"",
+            "defaultTitle":"",
+            "defaultContent":""
+        }
     ],
     "resultCode": 1
 }
