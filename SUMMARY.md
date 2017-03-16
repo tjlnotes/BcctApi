@@ -7,12 +7,10 @@
   * [1.1 获取用户信息](publicLogic/1_getUserInfo.md)
   * [1.2 获取验证码](publicLogic/2_getCode.md)
   * [1.3 修改用户信息](publicLogic/3_updateUserInfo.md)
-  * [1.4 获取购物车信息](publicLogic/6_getCart.md)
-  * [1.5 修改购物车信息](publicLogic/7_updateCart.md)
-  * [1.6 获取优惠券信息](publicLogic/8_getCoupon.md)
-  * [1.7 获取支付信息](publicLogic/10_getPayInfo.md)
-  * [1.8 发起支付](publicLogic/11_wechatPay.md)
-  * [1.9 修改推荐人](publicLogic/12_updateReferrer.md)
+  * [1.4 获取优惠券信息](publicLogic/8_getCoupon.md)
+  * [1.5 获取支付信息](publicLogic/10_getPayInfo.md)
+  * [1.6 发起支付](publicLogic/11_wechatPay.md)
+  * [1.7 修改推荐人](publicLogic/12_updateReferrer.md)
 
 ---
 
@@ -25,4 +23,7 @@
   * [2.6 二维码页](pageDisplay/6_code.md)
   * [2.7 评价论坛页](pageDisplay/7_BBS.md)
   * [2.8 个人中心页](pageDisplay/8_personalCenter.md)
+  * [2.9 购物车页](pageDisplay/9_cart.md)
+
+
 
