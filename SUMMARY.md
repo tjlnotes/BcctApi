@@ -26,8 +26,8 @@
     * [2.6 二维码页](pageDisplay/6_code.md)
     * [2.7 评价论坛页](pageDisplay/7_BBS.md)
     * [2.8 个人中心页](pageDisplay/8_personalCenter.md)
-    * [2.9 个人中心页](pageDisplay/9_member.md)
-    * [2.10 个人中心页](pageDisplay/5_rank.md)
+    * [2.9 会员页](pageDisplay/9_member.md)
+    * [2.10 排行榜页](pageDisplay/5_rank.md)
 
 
 
