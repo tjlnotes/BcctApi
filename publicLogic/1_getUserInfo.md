@@ -39,7 +39,6 @@
 | city | 城市 |string |
 | mobile | 手机号 |string |
 | pic | 头像图片 |string |
-| sex | 用户信息conId |string |
 | resultCode | 查询结果，取值为0和1 ，0表示查询失败，1表示查询成功|num
 | sysAccount | 账套号 | string
 
@@ -59,7 +58,6 @@
         "mobile": "18588474441",
         "pic": "http://www.hubeta.com:8080/group1/M00/00/07/wKgB9FhgtkiAAEe2AAAFJgnHYyM520.jpg",
         "province": "湖南省",
-        "sex": 1,
         "sysAccount": "WKZZ"
         },
     "resultCode": 1
