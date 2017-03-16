@@ -1,7 +1,7 @@
 # 2.1 首页
 
-* [2.1.1获取页面分类接口](#getcategories)
-* [2.1.2获取分类页面信息接口](#getpage)
+- [2.1.1获取页面分类接口](#getcategories)
+- [2.1.2获取分类页面信息接口](#getpage)
 
 ## 2.1.1获取页面分类接口  {#getcategories}
 
