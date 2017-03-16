@@ -2,7 +2,7 @@
 
 ## [阅读需知 （README）](README.md)
 
-* [公共逻辑类接口](#logic)
+* [公共逻辑类接口]
     * [1.1 获取用户信息](publicLogic/1_getUserInfo.md)
     * [1.2 获取验证码](publicLogic/2_getCode.md)
     * [1.3 修改用户信息](publicLogic/3_updateUserInfo.md)
