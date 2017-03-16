@@ -27,5 +27,6 @@
 * [2.5 个人中心页](pageDisplay/5_personalCenter.md)
 * [2.6 订单列表页](pageDisplay/6_orderList.md)
 * [2.7 评价论坛页](pageDisplay/7_BBS.md)
+* [2.8 评价论坛页](pageDisplay/8_code.md)
 
 
