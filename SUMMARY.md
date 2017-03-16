@@ -17,7 +17,7 @@
     * [1.12 修改推荐人](publicLogic/12_updateReferrer.md)
 
 
-* [2.页面交互类接口](pageDisplay.md)
+* [2.页面交互类接口](pageDisplay/1_indexPage.md)
     * [2.1 首页](pageDisplay/1_indexPage.md)
     * [2.2 视频详情页](pageDisplay/2_videoDetail.md)
     * [2.3 视频播放页](pageDisplay/3_videoPlay.md)
