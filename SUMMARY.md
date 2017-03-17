@@ -2,7 +2,10 @@
 
 ## 阅读需知 （README）
 
-* [Introduction](README.md)
+* [前言](README.md)
+
+## 接口文档
+
 * [1.公共逻辑类接口](publicLogic/1_getUserInfo.md)
   * [1.1 获取用户信息](publicLogic/1_getUserInfo.md)
   * [1.2 获取验证码](publicLogic/2_getCode.md)
@@ -11,8 +14,6 @@
   * [1.5 获取支付信息](publicLogic/10_getPayInfo.md)
   * [1.6 发起支付](publicLogic/11_wechatPay.md)
   * [1.7 修改推荐人](publicLogic/12_updateReferrer.md)
-
----
 
 * [2.页面交互类接口](pageDisplay/1_indexPage.md)
   * [2.1 首页](pageDisplay/1_indexPage.md)
