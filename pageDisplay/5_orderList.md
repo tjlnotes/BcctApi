@@ -45,9 +45,9 @@
 | status| num | 订单状态 |
 | sum| num | 订单商品数 |
 | totalPrice| num | 总价 |
-| defaultPic| num | 订单默认商品图片 |
-| defaultTitle| num | 订单默认商品名称 |
-| defaultContent| num | 订单默认商品描述 |
+| defaultPic| string | 订单默认商品图片 |
+| defaultTitle| string | 订单默认商品名称 |
+| defaultContent| string | 订单默认商品描述 |
 
 ### 返回示例
 ```json
@@ -59,9 +59,23 @@
             "status":"",
             "sum":"",
             "totalPrice":"",
-            "defaultPic":"",
-            "defaultTitle":"",
-            "defaultContent":""
+            "productList":[
+                {
+                    "pic":"",
+                    "productName":"",
+                    "productContent":""
+                },
+                {
+                    "pic":"",
+                    "productName":"",
+                    "productContent":""
+                },
+                {
+                    "pic":"",
+                    "productName":"",
+                    "productContent":""
+                }
+            ]
         },
         {
             "orderId":"",
@@ -69,9 +83,23 @@
             "status":"",
             "sum":"",
             "totalPrice":"",
-            "defaultPic":"",
-            "defaultTitle":"",
-            "defaultContent":""
+            "productList":[
+                {
+                    "pic":"",
+                    "productName":"",
+                    "productContent":""
+                },
+                {
+                    "pic":"",
+                    "productName":"",
+                    "productContent":""
+                },
+                {
+                    "pic":"",
+                    "productName":"",
+                    "productContent":""
+                }
+            ]
         },
         {
             "orderId":"",
@@ -79,9 +107,23 @@
             "status":"",
             "sum":"",
             "totalPrice":"",
-            "defaultPic":"",
-            "defaultTitle":"",
-            "defaultContent":""
+            "productList":[
+                {
+                    "pic":"",
+                    "productName":"",
+                    "productContent":""
+                },
+                {
+                    "pic":"",
+                    "productName":"",
+                    "productContent":""
+                },
+                {
+                    "pic":"",
+                    "productName":"",
+                    "productContent":""
+                }
+            ]
         }
     ],
     "resultCode": 1
