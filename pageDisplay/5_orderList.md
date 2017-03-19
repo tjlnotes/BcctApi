@@ -45,9 +45,9 @@
 | status| num | 订单状态 |
 | sum| num | 订单商品数 |
 | totalPrice| num | 总价 |
-| defaultPic| string | 订单默认商品图片 |
-| defaultTitle| string | 订单默认商品名称 |
-| defaultContent| string | 订单默认商品描述 |
+| pic| string | 商品图片 |
+| productName| string | 商品名称 |
+| productContent| string | 商品描述 |
 
 ### 返回示例
 ```json
