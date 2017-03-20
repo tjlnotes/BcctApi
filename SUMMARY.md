@@ -18,13 +18,12 @@
 * [2.页面交互类接口](pageDisplay/1_indexPage.md)
   * [2.1 首页](pageDisplay/1_indexPage.md)
   * [2.2 视频详情页](pageDisplay/2_videoDetail.md)
-  * [2.3 视频播放页](pageDisplay/3_videoPlay.md)
-  * [2.4 订单结算页](pageDisplay/4_order.md)
-  * [2.5 订单列表页](pageDisplay/5_orderList.md)
-  * [2.6 二维码页](pageDisplay/6_code.md)
-  * [2.7 论坛页](pageDisplay/7_BBS.md)
-  * [2.8 个人中心页](pageDisplay/8_personalCenter.md)
-  * [2.9 购物车页](pageDisplay/9_cart.md)
+  * [2.3 订单结算页](pageDisplay/4_order.md)
+  * [2.4 订单列表页](pageDisplay/5_orderList.md)
+  * [2.5 二维码页](pageDisplay/6_code.md)
+  * [2.6 论坛页](pageDisplay/7_BBS.md)
+  * [2.7 个人中心页](pageDisplay/8_personalCenter.md)
+  * [2.8 购物车页](pageDisplay/9_cart.md)
 
 
 
