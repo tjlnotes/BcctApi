@@ -45,6 +45,7 @@
 | theme| string | 主题 |
 | title| string | 分集标题 |
 | time| string | 时间 |
+| id | string | 视频id|
 | resultCode| num | 返回码 |
 
 ### 返回示例
@@ -60,16 +61,16 @@
                "theme": "主题一 字母世界",
                "content": [
                    {
-                       "title": "Unit01 字母世界",
-                       "time": "12分钟",
-                       "id": "H3GI18A7EYRGD",
-                       "url": ""
+                       "videoTitle": "Unit01 字母世界",
+                       "videoTime": "12分钟",
+                       "videoId": "H3GI18A7EYRGD",
+                       "videoUrl": ""
                    },
                    {
-                       "title": "Unit02 数字世界",
-                       "time": "12分钟",
-                       "id": "A72GD73GR7Y",
-                       "url": ""
+                       "videoTitle": "Unit02 数字世界",
+                       "videoTime": "12分钟",
+                       "videoId": "A72GD73GR7Y",
+                       "videoUrl": ""
                    }
                ]
            },
@@ -77,16 +78,16 @@
                "theme": "主题二 快乐一家人",
                "content": [
                    {
-                       "title": "Unit01 字母世界",
-                       "time": "12分钟",
-                       "id": "A72GD73GR7Y",
-                       "url": ""
+                       "videoTitle": "Unit01 字母世界",
+                       "videoTime": "12分钟",
+                       "videoId": "A72GD73GR7Y",
+                       "videoUrl": ""
                    },
                    {
-                       "title": "Unit02 数字世界",
-                       "time": "12分钟",
-                       "id": "A72GD73GR7Y",
-                       "url": ""
+                       "videoTitle": "Unit02 数字世界",
+                       "videoTime": "12分钟",
+                       "videoId": "A72GD73GR7Y",
+                       "videoUrl": ""
                    }
                ]
            }
