@@ -42,6 +42,7 @@
 | content| string | 视频包详情介绍 |
 | price| num| 原价 |
 | discountPrice| num| 折扣价 |
+| defaultVideo| string | 默认播放视频|
 | theme| string | 主题 |
 | title| string | 分集标题 |
 | time| string | 时间 |
@@ -56,6 +57,7 @@
        "content": "“海洋世界系列”是《蓝猫淘气三千问》继“幽默系列”之后推出的又一历险类故事系列",
        "price": 118,
        "discountPrice": 69,
+       "defaultVideo":"", 
        "summary": [
            {
                "theme": "主题一 字母世界",
